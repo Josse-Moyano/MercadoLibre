@@ -48,7 +48,7 @@ Estilos:
 * Los componentes y páginas están diseñados con styled-components, lo que garantiza una apariencia coherente y agradable en toda la aplicación.
 
 
-# Guía para Desplegar la Página Web
+# Guía para desplegar la página web
 
 Clonar el Repositorio: 
 Descargar el repositorio desde GitHub a la computadora local. Esto se puede hacer utilizando el comando git clone seguido de la URL del repositorio.
@@ -76,6 +76,6 @@ Ejecuta el servidor frontend utilizando el siguiente comando:
     
 
 
-# Explora la Página Web
+# Explora la página web
 
 Ahora deberías poder explorar la página web en tu computadora local. Puedes buscar productos, ver detalles y navegar por las diferentes páginas.
