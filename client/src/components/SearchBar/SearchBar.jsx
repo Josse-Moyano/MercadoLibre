@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useLocation } from 'react-router-dom';
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -11,7 +12,9 @@ export default function SearchBar() {
 
   const navigate = useNavigate();
   const dispatch = useDispatch()
-  const [query, setQuery] = useState("");
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const [query, setQuery] = useState(searchParams.get('search'));
 
   const handleSearch = (e) => {
     e.preventDefault();
