@@ -18,7 +18,7 @@ Rutas:
 
 Componentes:
 
-* BreadCrumbs: Muestra categorías de productos y facilita la navegación.
+* BreadCrumbs: Muestra categorías de productos.
 * Card: Muestra detalles resumidos de un producto, como su título, precio y ubicación.
 * CardDetail: Muestra detalles completos de un producto, incluyendo descripción, condición y vendores. Ademas de un loading mientras se cargan los resultados
 * Cards: Muestra una lista de productos con componentes Card o un loading mientras se cargan los resultados.
